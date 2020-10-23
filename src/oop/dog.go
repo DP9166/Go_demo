@@ -1,4 +1,5 @@
-package animal
+package oop
+
 
 type Dog struct {
 	Animal

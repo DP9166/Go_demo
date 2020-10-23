@@ -27,12 +27,6 @@ func (s Student) String() string  {
 
 
 // ------------------------------  为基本数据类型添加成员方法
-type Integer int
-
-func (a Integer) Equal (b Integer) bool {
-	return a == b
-}
-
 
 func main()  {
 	var a Integer = 2

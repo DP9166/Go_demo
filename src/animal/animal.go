@@ -20,3 +20,8 @@ func (a Animal) GetName() string {
 	return a.name
 }
 
+type IAnimal interface {
+	GetName() string
+	Call() string
+	FavorFood() string
+}
